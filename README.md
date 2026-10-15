@@ -62,7 +62,3 @@ Please contact the project maintainer to discuss commercial usage and licensing 
 ## Acknowledgements
 
 Thank you to everyone who contributes to making this project better. Every bug report, suggestion, and contribution helps the project grow.
-
----
-
-**Made for college attendance management. Built with the spirit of open source.**
