@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Attendance</h1>
+        <p>Mark today's attendance</p>
+
+        <form id="studentForm">
+            <input type="text" id="studentName" placeholder="Enter student name" required>
+            <button type="submit">Add Student</button>
+        </form>
+
+        <div class="summary">
+            <span>Total: <b id="total">0</b></span>
+            <span>Present: <b id="present">0</b></span>
+            <span>Absent: <b id="absent">0</b></span>
+        </div>
+
+        <ul id="studentList"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
